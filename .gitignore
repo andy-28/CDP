@@ -1,0 +1,27 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+appsettings.*.local.json
+secrets/
+
+# Sensitive and generated data
+exports/
+private-data/
+company-data/
+*.xlsx
+*.csv
+
+# .NET
+bin/
+obj/
+*.user
+
+# Frontend
+node_modules/
+dist/
+.DS_Store
+
+# Editor files
+.idea/
+.vscode/
